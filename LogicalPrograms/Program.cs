@@ -34,6 +34,9 @@ namespace LogicalPrograms
                         ReverseNumber reverse = new ReverseNumber();
                         reverse.Check(458);
                         break;
+                    case 5:
+                        CouponNumber.GenerateCoupons(15);
+                        break;
                     default:
                         flag = false;
                         break;
