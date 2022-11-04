@@ -24,7 +24,11 @@ namespace LogicalPrograms
                         break;
                    case 2:
                         PerfectNumber perfect = new PerfectNumber();  
-                        perfect.perf(5);
+                        perfect.perf(10);
+                        break;
+                    case 3:
+                        PrimeNumber prime = new PrimeNumber();
+                        prime.Check(28);
                         break;
                     default:
                         flag = false;
