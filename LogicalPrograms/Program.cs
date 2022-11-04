@@ -30,6 +30,10 @@ namespace LogicalPrograms
                         PrimeNumber prime = new PrimeNumber();
                         prime.Check(28);
                         break;
+                    case 4:
+                        ReverseNumber reverse = new ReverseNumber();
+                        reverse.Check(458);
+                        break;
                     default:
                         flag = false;
                         break;
