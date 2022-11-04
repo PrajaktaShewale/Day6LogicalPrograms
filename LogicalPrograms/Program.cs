@@ -22,6 +22,10 @@ namespace LogicalPrograms
                         FibonacciSeries Fibonacci = new FibonacciSeries();
                         Fibonacci.Print(4);
                         break;
+                   case 2:
+                        PerfectNumber perfect = new PerfectNumber();  
+                        perfect.perf(5);
+                        break;
                     default:
                         flag = false;
                         break;
