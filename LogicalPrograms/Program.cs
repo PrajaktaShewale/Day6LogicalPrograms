@@ -37,6 +37,10 @@ namespace LogicalPrograms
                     case 5:
                         CouponNumber.GenerateCoupons(15);
                         break;
+                    case 6:
+                        StopWatch watch = new StopWatch();
+                        watch.Start();
+                        break;
                     default:
                         flag = false;
                         break;
