@@ -14,7 +14,7 @@ namespace LogicalPrograms
             {
                 Console.WriteLine("Welcome to Logical Programming Problems");
                 Console.WriteLine("1. Fibonaccis Series" + "\n" + "2. Check Perfect Number" + "\n" + "3. PrimeNumber" + "\n" + "4. Reverse enter" + "\n" + "5. Coupon Number" + "\n" + "6. Stop Watch" + "\n" +
-                    "7. Vending Machine" + "\n"+ "8. Exit");
+                    "7. Vending Machine" + "\n" + "8. DayOfWeek" + "\n"+ "9. Exit");
 
                 int check = Convert.ToInt32(Console.ReadLine());
                 switch (check)
@@ -45,6 +45,9 @@ namespace LogicalPrograms
                     case 7:
                         VendingMachine Ven = new VendingMachine();
                         Ven.Notes(2125);
+                        break;
+                    case 8:
+                        DayOfWeek.DayOf();
                         break;
                     default:
                         flag = false;
